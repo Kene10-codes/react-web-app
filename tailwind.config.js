@@ -3,11 +3,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#3DB0FF"
+        primary: "#272262",
+        sec: "#3DB0FF",
+        accent: "#282C4099",
+        tert: "#82869A"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+      },
+      textShadow: {
+        textShadow: "0px 32px 84px rgba(29, 41, 63, 0.06)"
+      },
+      background: {
+        linearGradient: "linear-gradient(0deg, rgba(39, 34, 98, 0.2), rgba(39, 34, 98, 0.2))"
       },
       maxWidth: {
         "8xl": "88rem",

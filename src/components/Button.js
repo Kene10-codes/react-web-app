@@ -13,3 +13,16 @@ return (
   )
 }
 
+
+export const SubmitButton = ({ text, children, className, ...rest}) => {
+  return (
+      <>
+         <button
+          className={`text-base group border wide text-white bg-sec duration-100 border-sec  shadow-md focus:shadow-none hover:bg-sec hover:text-black ${className}`}
+          {...rest}
+        >
+          {children || text}
+        </button>
+      </>
+    )
+  }
