@@ -5,21 +5,22 @@ import { Checkbox } from "components/Checkbox"
 import { SubmitButton } from "components/Button"
 import Image from  "assets/image.png"
 import { LinkButton } from "components/Link"
+import { Link } from "react-router-dom"
 
 
 export const CreateAccountContent = () => {
   return (
     <>
-        <div className="flex flex-row">
+        <div className="flex flex-row justify-between">
          <div className="relative bg-linearGradient">
            <img src={Image} /> 
            <span className="absolute bottom-40 left-5 text-justify text-white shadow-textShadow px-10 text-xl">Building exceptional services with Back Office Support and Business Perfomance</span>
           </div>
-          <div className="px-10 pt-5">
+          <div className="px-20 pt-5">
              <LgText text="Create Account" />
-             <p className="text-accent text-base leading-5">Build an exceptional business</p>
+             <p className="text-accent text-base leading-5 py-2 font-thin">Build an exceptional business</p>
 
-             <div className="mt-5" >
+             <div className="mt-4" >
                <form>
                    <div className="flex justify-between">
                      <Input
@@ -31,6 +32,7 @@ export const CreateAccountContent = () => {
                         type={"text"}
                         label={"Last Name"}
                         placeholder={"Enter your last name"}
+                        className={"ml-5"}
                      />
                    </div>
 
@@ -52,12 +54,16 @@ export const CreateAccountContent = () => {
                         placeholder={"Enter your password"}
                      />
 
-                    <div className="flex flex-row justify-between content-center">
-                     <Checkbox />
-                     <p>Forgot Password?</p>
+                    <div className="flex flex-row justify-between content-center py-2">
+                     <Checkbox 
+                      type={"checkbox"}
+                      name={"check"}
+                      checked
+                     />
+                     <p className="text-sec text-sm ">Forgot Password?</p>
                    </div>
-                    <SubmitButton type={"submit"} text={"Sign Up"} />
-                    <span>Got an Account?</span>
+                    <SubmitButton type={"submit"}  text={"Sign Up"} />
+                    <span  className="text-tert text-sm py-5 text-center block">Got an Account? <Link className="text-sec ml-2" to="/">Sign In</Link> </span>
                     {/* <LinkButton text={"Sign In"} /> */}
                </form>
              </div>
