@@ -16,8 +16,19 @@ module.exports = {
       textShadow: {
         textShadow: "0px 32px 84px rgba(29, 41, 63, 0.06)"
       },
+      borderRadius: {
+        borderRadius: "30px"
+      },
       background: {
-        linearGradient: "linear-gradient(0deg, rgba(39, 34, 98, 0.2), rgba(39, 34, 98, 0.2))"
+        linearGradient: "linear-gradient(0deg, rgba(39, 34, 98, 0.2), rgba(39, 34, 98, 0.2))",
+        coverBackground: "#E5E5E5"
+      },
+      ackground: {
+        
+      },
+      width: {
+        widthWrapper: "175px",
+        widthWrapperTwo: "200px"
       },
       maxWidth: {
         "8xl": "88rem",
