@@ -7,7 +7,9 @@ module.exports = {
         sec: "#3DB0FF",
         accent: "#282C4099",
         tert: "#82869A",
-        checkboxBg: "#EBEBEB"
+        checkboxBg: "#EBEBEB",
+        lightGray: "#C4C4C4",
+        darkBlue: "#081494"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
