@@ -9,11 +9,15 @@ module.exports = {
         tert: "#82869A",
         checkboxBg: "#EBEBEB",
         lightGray: "#C4C4C4",
-        darkBlue: "#081494"
+        darkBlue: "#081494",
+        lighterGray: "#f9fafc" 
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+      },
+      fontWeight: {
+        head: "700"
       },
       textShadow: {
         textShadow: "0px 32px 84px rgba(29, 41, 63, 0.06)"
@@ -25,12 +29,10 @@ module.exports = {
         linearGradient: "linear-gradient(0deg, rgba(39, 34, 98, 0.2), rgba(39, 34, 98, 0.2))",
         coverBackground: "#E5E5E5"
       },
-      ackground: {
-        
-      },
       width: {
         widthWrapper: "175px",
-        widthWrapperTwo: "200px"
+        widthWrapperTwo: "200px",
+        inputWidth: "120px"
       },
       maxWidth: {
         "8xl": "88rem",

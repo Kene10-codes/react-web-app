@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from 'assets/logo.png'
 import arrow from 'assets/arrow.png'
 import arrowRight from 'assets/arrowRight.png'
@@ -8,7 +7,7 @@ import circle from 'assets/circle.png'
 
 export const NavbarContainer = () => {
     return (
-        <div className='h-20'>
+        <div className='h-20 bg-lighterGray'>
            <Navbar 
              src={Logo} 
              text={"HostBeak"} 

@@ -1,7 +1,7 @@
 import React from "react"
 import { LgText } from "components/LgText"
 import { Input } from "components/form/Input"
-import { Checkbox } from "components/form/Checkbox"
+import { Checkbox } from "components/form/Input"
 import { SubmitButton } from "components/Button/Button"
 import Image from  "assets/image.png"
 import { LinkButton } from "components/Link"
