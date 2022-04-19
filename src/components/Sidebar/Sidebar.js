@@ -90,21 +90,21 @@ export const Sidebar = ({
          <aside className='w-60' aria-label="Sidebar">
          <div class="overflow-y-auto py-4 px-3 bg-gray-50 dark:bg-gray-800">
            <ul className='space-y-2'>
-             <li>
+             <li className='py-1'>
               <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={rocket} />
                <span class="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{welcomeText}</span>
                <img className='flex-shrink-0 w-3 h-3 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor' src={arrowBtn} />
               </a>
              </li>
-             <li>
+             <li className='py-1'>
               <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
               <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={dashboard} />
                <span className="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{dashboardText}</span>
                <img className='flex-shrink-0 w-3 h-3 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor' src={arrowBtn} />
               </a>
              </li>
-             <li>
+             <li className='py-1'>
               <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={sales} />
                <span className="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{salesText}</span>
@@ -129,7 +129,7 @@ export const Sidebar = ({
                   </li>
             </ul>
          </li>
-         <li>
+         <li className='py-1'>
               <a href="#" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={accounting} />
                <span class="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{accountingText}</span>
@@ -143,14 +143,14 @@ export const Sidebar = ({
                <img className='flex-shrink-0 w-3 h-3 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor' src={arrowBtn} />
               </a>
              </li>
-             <li>
+             <li className='py-1'>
               <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={payroll} />
                <span className="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{payrollText} </span>
                <img className='flex-shrink-0 w-3 h-3 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor' src={arrowBtn} />
               </a>
              </li>
-             <li>
+             <li className='py-1'>
               <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={reports} />
                <span className="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{reportsText} </span>
@@ -164,14 +164,14 @@ export const Sidebar = ({
                <img className='flex-shrink-0 w-3 h-3 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor' src={arrowBtn} />
               </a>
              </li>
-             <li>
+             <li className='py-1'>
               <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={setting} />
                <span className="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{settingText} </span>
                <img className='flex-shrink-0 w-3 h-3 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" fill="currentColor' src={arrowBtn} />
               </a>
              </li>
-             <li>
+             <li className='pt-5 pb-4'>
               <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                <img className='h-4 w-4 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={logout} />
                <span className="flex-1 ml-3 whitespace-nowrap text-sm text-lightGray">{logoutText} </span>
