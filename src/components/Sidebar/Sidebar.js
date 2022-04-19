@@ -7,7 +7,7 @@ import Payroll from 'assets/roller.png'
 import Card from 'assets/card.png'
 import Reports from 'assets/budget.png'
 import Bank from 'assets/bank.png'
-import Cart from 'assets/cart.png'
+import Cart from 'assets/cart1.png'
 import Analytics from 'assets/people.png'
 import Home from 'assets/home.png'
 import Accounting from 'assets/Group.png'
@@ -180,7 +180,7 @@ export const Sidebar = ({
              </li>
              <li className='bg-darkBlue rounded-xl'>
               <a href="#" className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-               <img className='h-5 w-5 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={accessPayment} />
+               <img className='h-4 w-5 flex-shrink-0 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white' src={accessPayment} />
                <span className="flex-1 ml-3 whitespace-nowrap text-white">{accessPaymentText} </span>
               </a>
              </li>
