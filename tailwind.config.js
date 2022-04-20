@@ -10,7 +10,8 @@ module.exports = {
         checkboxBg: "#EBEBEB",
         lightGray: "#C4C4C4",
         darkBlue: "#081494",
-        lighterGray: "#f9fafc" 
+        lighterGray: "#f9fafc",
+        darkGray: "#C7CFD6"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

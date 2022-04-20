@@ -17,7 +17,7 @@ return (
 export const InputTwo = ({type, label, name, value, placeholder, className, onChange, ...rest}) =>  (
   <div className={`flex flex-col flex-wrap mb-6 ${className}`}>
   {label && <label className='text-gray-700 text-xs mb-2'>{label}</label>}
-  <div className="datepicker w-full relative form-floating mb-3">
+  <div className="w-full relative form-floating mb-3">
   <input
     type={type}
     name={name}
@@ -124,6 +124,29 @@ export const Checkbox = ({type, name, value, className, ...rest}) => {
   )
 }
 
- 
+ export const UploadFile = ({type, id, label, placeholder, className}) => {
+   return (
+    <div className={`flex flex-col justify-between content-center ${className}`}>
 
+      {label && <label className='text-gray-700 text-xs mb-2' for="formFile" >{label}</label>}
+      <div className="w-full relative form-floating mb-3">
+      <input className={`
+                        block 
+                        w-max-full
+                        transition 
+                        ease-in-out 
+                        m-0 text-xs 
+                        border 
+                        border-gray-200 
+                        text-gray-700  
+                        px-1 w-inputWidth  
+                        rounded 
+                        leading-tight 
+                        focus:text-gray-700 focus:bg-white focus:outline-none`
+                      }
+       type={type} id={id} placeholder={placeholder} />
+      </div>
+  </div>
+   )
+ }
 
