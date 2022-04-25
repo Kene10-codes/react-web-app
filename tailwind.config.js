@@ -11,11 +11,16 @@ module.exports = {
         lightGray: "#C4C4C4",
         darkBlue: "#081494",
         lighterGray: "#f9fafc",
-        darkGray: "#C7CFD6"
+        darkGray: "#C7CFD6",
+        lighterGreen: "#D9FCEA",
+        lightGreen: "#39DA8A"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+      },
+      fontSize: {
+        textLight: "10px"
       },
       fontWeight: {
         head: "700"

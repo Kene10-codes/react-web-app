@@ -6,9 +6,9 @@ import { SidebarContainer } from 'components/Sidebar/Sidebar'
 
 export const Layout = () => {
   return (
-    <div>
+    <div className='flex flex-col'>  
       <NavbarContainer />
-        <div className='flex flex-row'>
+        <div  className='flex'>
          <SidebarContainer />
          <Outlet  />
         </div> 

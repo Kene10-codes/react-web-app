@@ -26,3 +26,16 @@ export const SubmitButton = ({ text, children, className, ...rest}) => {
       </>
     )
   }
+
+  export const ViewButton = ({ text, children, className, ...rest}) => {
+    return (
+        <>
+           <button
+            className={`block text-base w-60 py-3 mt-4 max-w-full wide text-white bg-sec rounded  ${className}`}
+            {...rest}
+          >
+            {children || text}
+          </button>
+        </>
+      )
+    }

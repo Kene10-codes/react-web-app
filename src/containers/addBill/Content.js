@@ -28,31 +28,31 @@ export const AddBillContent = () => {
         <div className='flex justify-between content-center'>
           <div>
            <div className='flex flex-row'>
-           <DynamicSelect
+            <DynamicSelect
               label={"Currency"}
               data={["USD - US Dollar", "Pound"]}
               placeholder={"USD - US Dollar"}
               className={"mr-10"}
-            />
+             />
             <DatePicker
               label={"Date"}
               placeholder={"2021-04-05"}
               className={"mx-10"}
-            />
+             />
            </div>
            <div className='flex flex-row'>
-           <DynamicSelect
+            <DynamicSelect
               label={"Currency"}
               data={["USD - US Dollar", "Pound"]}
               placeholder={"USD - US Dollar"}
               className={"mr-10"}
-            />
-            <UploadFile
+             />
+             <UploadFile
               type={"file"}
               label={"Upload copy of Bill"}
               // placeholder={"Upload file"}
               className={"mx-10"}
-            />
+             />
             </div>
            </div>
             <TextArea
@@ -61,8 +61,6 @@ export const AddBillContent = () => {
             />
         </div>
         </div>
-
-        <div className='border border-darkGray w-max-full'>
         <table class="table-auto">
          <thead>
             <tr className='border-b-2 h-10'> 
@@ -90,42 +88,10 @@ export const AddBillContent = () => {
                className={"mr-10"}
               />
               </td>
-              <td>
-                <InputTwo />
-              </td>
-              <td>
-                <InputTwo
-                 placeholder={"1"}
-                 className={"text-center w-1"}
-                />
-              </td>
-              <td>
-                <InputTwo
-                 placeholder={""}
-                 className={"text-center"}
-                />
-              </td>
-              <td>
-                <InputTwo
-                 placeholder={"1"}
-                 className={"text-center"}
-                />
-              </td>
-               <td>
-                <InputTwo
-                 placeholder={"1"}
-                 className={"text-center"}
-                />
-              </td>
             </tr>
         </tbody>
       </table>
-        </div>
-      
-
-
-        
-    </div>
+     </div>
   )
 }
 
